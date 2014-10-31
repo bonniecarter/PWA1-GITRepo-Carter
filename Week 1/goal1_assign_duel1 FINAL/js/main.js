@@ -1,34 +1,38 @@
 /**
- * Duel Fight Game - FINISHED
+ * Duel Fight Game - Bonnie Carter
  * Date: 4/09/13
 
  Assignment 1
  Part 1/3 of series
+ Updated by Bonnie Carter
 */
 
 // self-executing function
 (function(){
 
-    console.log("FIGHT!!!");
+    console.log("FIGHT!!!");                 //Comment: Display to Browser "Fight"
+    console.log ("Spiderman & Superman");    //Comment: Display Battle Names
 
     //player name
-    var playerOneName = "Spiderman";
-    var playerTwoName = "Batman";
+    var playerOneName = "Spiderman";         //Name Player One: Spiderman
+    var playerTwoName = "Superman";          //Name Player Two: Superman
 
     //player damage
-    var player1Damage = 20;
-    var player2Damage = 20;
+    var player1Damage = 20;                  //Damage to be reduced
+    var player2Damage = 20;                  //Damage to be reduced
 
     //player health
-    var playerOneHealth = 100;
-    var playerTwoHealth = 100;
+    var playerOneHealth = 100;               //Start Player One Health 100
+    var playerTwoHealth = 100;               //Start Player Two Health 100
 
     //initiate round
     var round=0;
 
     function fight(){
         alert(playerOneName+":"+playerOneHealth+"  *START*  "+playerTwoName+":"+playerTwoHealth);
+        //pop up with player one name and health and player two health
         for (var i = 0; i < 10; i++)
+        //incrementing by one
         {
             //random formula is - Math.floor(Math.random() * (max - min) + min);
             var minDamage1 = player1Damage * .5;

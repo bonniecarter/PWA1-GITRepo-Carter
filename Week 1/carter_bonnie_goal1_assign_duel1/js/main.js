@@ -26,8 +26,8 @@
     var playerTwoHealth = 100;               //Start Player Two Health 100
 
     //initiate round
-    var round=0;
-
+    var round=0;                             //Variable Round Starts @ 0
+                                             //function fight starts with an alert
     function fight(){
         alert(playerOneName+":"+playerOneHealth+"  *START*  "+playerTwoName+":"+playerTwoHealth);
                                              //pop up with player one name and health and player two health
@@ -39,17 +39,20 @@
             var minDamage1 = player1Damage * .5;
                                              //min damage .5 (random)
             var minDamage2 = player2Damage * .5;
+                                             //A Number, representing a number from 0 up to but not including 1
+                                             //The Math.floor(x) function returns the largest integer less than or equal to a number "x".
             var f1 = Math.floor(Math.random()*(player1Damage-minDamage1)+minDamage1);
             var f2 = Math.floor(Math.random()*(player2Damage-minDamage2)+minDamage2);
 
                                              //inflict damage
             playerOneHealth-=f1;
             playerTwoHealth-=f2;
-
+                                             //console log: player 1 name and the health  player 2 name and the health.
             console.log(playerOneName+": "+playerOneHealth + " " + playerTwoName+":"+playerTwoHealth);
 
-                                             //check for victor
+                                             //check for victor (winner) assign function winnerCheck to declared variable result
             var result = winnerCheck();
+                                             //console log: results of the winner or no winner
             console.log(result);
             if (result==="no winner")
             {
@@ -63,7 +66,8 @@
 
           };
     };
-
+                                             //function named winnerCheck if both players are less then 1 health, no winner, if
+                                             //if player 1 or 2 has les then 1 the opposite player "wins" then return result to variable
     function winnerCheck(){
         var result="no winner";
         if (playerOneHealth<1 && playerTwoHealth<1)
@@ -79,6 +83,7 @@
     };
 
     /*******  The program gets started below *******/
+                                             //function fight is called ... game starts
     fight();
 
 })();

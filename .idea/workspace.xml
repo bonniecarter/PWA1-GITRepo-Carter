@@ -28,10 +28,10 @@
       <file leaf-file-name="search.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week 2/carter_bonnie_goal3_assign_debug_v2/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09816754" vertical-offset="0" max-vertical-offset="1935">
-              <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.5497382" vertical-offset="0" max-vertical-offset="1935">
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
               <folding>
-                <marker date="1415198156000" expanded="false" signature="2418:2433" placeholder="..." />
+                <marker date="1415198730000" expanded="false" signature="2641:2656" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -479,10 +479,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 2/carter_bonnie_goal3_assign_debug_v2/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09816754" vertical-offset="0" max-vertical-offset="1935">
-          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.5497382" vertical-offset="0" max-vertical-offset="1935">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
           <folding>
-            <marker date="1415198156000" expanded="false" signature="2418:2433" placeholder="..." />
+            <marker date="1415198730000" expanded="false" signature="2641:2656" placeholder="..." />
           </folding>
         </state>
       </provider>

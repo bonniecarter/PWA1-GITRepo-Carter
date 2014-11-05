@@ -1,6 +1,9 @@
+// Bonnie Carter - PWA1 - 2014
+
 // Create privatized scope using a self-executing function
 // Start of Function
-(function(){
+
+(function(){  // Self Executing Function Used for Encapsulation.
 	
 	// Variable initialization (DO NOT FIX ANY OF THE BELOW VAR's)
 	var resultsDIV = document.getElementById("results"),
@@ -9,7 +12,7 @@
 	;
 	
 	// Validates search query
-	var validqte = function(query){
+	var validqte = function(query){  //fixed error replace == with =
 		
 		// Trim whitespace from start and end of search query
 		while(query.charAt(0) = " "){
@@ -21,7 +24,7 @@
 		
 		// Check search length, must have 3 characters
 		if(query.length < 3){
-			alert("Your search query is too small, try again.);
+			alert("Your search query is too small, try again."); //fixed " to complete alert statement
 			
 			// (DO NOT FIX THE LINE DIRECTLY BELOW)
 			searchInput.focus();
@@ -31,8 +34,8 @@
 		search(query);
 	};
 	
-	// Finds search matches
-	var search = function(query)
+	// Finds search matches // Anonymous Function
+	var search = function(query){ // Fixed Error, Added Opening Curly Brace.
 		
 		// split the user's search query string into an array
 		var queryArray = query.join(" ");

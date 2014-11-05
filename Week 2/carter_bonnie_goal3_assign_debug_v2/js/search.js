@@ -13,9 +13,11 @@
 	
 	// Validates search query
 	var validqte = function(query){  //fixed error replace == with =
-		
+
+        //console.log("outside while loop for trimming space");
+
 		// Trim whitespace from start and end of search query
-		while(query.charAt(0) = " "){
+		while(query.charAt(0) === " "){   //comparing user input if empty do this... fixed = to ===
 			query = query.substring(1, query.length);
 		};
 		while(query.charAt(query.length-1) === "") {

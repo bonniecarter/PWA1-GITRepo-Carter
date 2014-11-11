@@ -94,7 +94,11 @@
 
             //Disable the button - need the below if using addEventListner
             button.removeEventListener("click", fight, false);
-            //buton.disabled = true;
+            //button.disabled = true;
+
+            //button.onclick = "return false";
+
+            document.querySelector('.buttonblue').innerHTML = 'DONE!!!';
         }
 
         //console.log("FIGHT!!!");
@@ -137,25 +141,25 @@
             //  };
 
           //};
-    };
+    }
                                              //function named winnerCheck if both players are less then 1 health, no winner, if
                                              //if player 1 or 2 has les then 1 the opposite player "wins" then return result to variable
     function winnerCheck(){
-        var result="no winner";
-        if (fighter1[2]<1 && fighter2[2]<1)
+        var result = "no winner";
+        if (fighters[0].health < 1 && fighters[1].health < 1)
         {
-            result = "You Both Die";
-        } else if(fighter1[2]<1){
-            result =fighter2[0]+" WINS!!!"
-        } else if (fighter2[2]<1)
+            result = "You Both Die - GAME OVER!";
+        } else if(fighters[0].health < 1){
+            result =fighters[1].name + " WINS!!!"
+        } else if (fighters[1] < 1)
         {
-            result = fighter1[0]+" WINS!!!"
-        };
+            result = fighters[0].name + " WINS!!!"
+        }
        return result;
-    };
+    }
 
     /*******  The program gets started below *******/
                                              //function fight is called ... game starts
-    fight();
+    //fight();
 
 })();

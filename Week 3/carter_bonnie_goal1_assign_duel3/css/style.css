@@ -12,22 +12,22 @@ body{
 	height: 100%;
 }
 
-#kabal{
+#spiderman{
 	margin: 0px 0px 0px 15%;
 	float:left;
 }
 
-#kratos{
-	margin: 0px 0px 0px 59%;
+#superman{
+	margin: 0px 0px 0px 40%;
 	float:left;
 }
 
-#kabal p{
+#spiderman p{
 	font-family: arial;
 	font-size:  25px;
 }
 
-#kratos p{
+#superman p{
 	font-family: arial;
 	font-size:  25px;
 }

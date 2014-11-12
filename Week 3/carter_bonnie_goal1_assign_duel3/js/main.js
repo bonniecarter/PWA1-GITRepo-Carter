@@ -14,11 +14,12 @@
 
 
     //DEFINE YOUR do pieces; Multiple ways to define/access HTML tags.
-    var fighter1_txt = document.querySelector("#ww").querySelector("p");
-    var fighter2_txt = document.querySelector("#bw").querySelector("p");
+    var fighter1_txt = document.querySelector("#spiderman").querySelector("#p");
+    var fighter2_txt = document.querySelector("#superman").querySelector("#p");
     var round_txt = document.querySelector("h5");
     var button = document.getElementById("fight_btn");
 
+    console.log("I am past the variables.");
     //var fighter1=["Spiderman",20,100];       //Defining Array for Spiderman #1
     //var fighter2=["Superman",20,100];        //Defining Array for Superman #2
 
@@ -28,22 +29,28 @@
     //CREATE ARRAY OF OBJECTS FOR 2 FIGHTERS
     var fighter = [
         {
-            name:"Wonder Woman",
+            name:"Spiderman",
             damage:20,
             health:100
         },
         {
-            name:"Black Widow",
+            name:"Superman",
             damage:20,
             health:100
         }];
 
-    var round = 1;                           //Defining Global Variable for Fight
+    var round = 1;                              //Defining Global Variable for Fight
+
+    console.log("I am past the var round = 1");
+
 
     //INITIALIZE DOM innerHTML text for top of HTML page
-    round_txt.innerHTML = "Click FIGHT BUTTON to Start!";
-    fighter1_txt.innerHTML = fighters[0].name + ":  " + fighters[0].health;
-    fighter2_txt.innerHTML = fighters[1].name + ":  " + fighters[1].health;
+
+    document.getElementById("round").innerHTML = "Click FIGHT BUTTON to Start!";
+    fighter1_txt.innerHTML = fighter[0].name + ":  " + fighter[0].health;
+    fighter2_txt.innerHTML = fighter[1].name + ":  " + fighter[1].health;
+
+    console.log("I am past initializing the DOM");
 
     // console.log ("Spiderman & Superman");    //Comment: Display Battle Names
 
@@ -64,19 +71,21 @@
                                              //function fight starts with an alert
     function fight(){
 
-        fighter1_txt.innerHTML = fighter[0].name + ";  " + fighters[0].health;
-        fighter2_txt.innerHTML = fighter[1].name + ";  " + fighters[1].health;
+        console.log("inside fight function");
+
+        fighter1_txt.innerHTML = fighter[0].name + ";  " + fighter[0].health;
+        fighter2_txt.innerHTML = fighter[1].name + ";  " + fighter[1].health;
 
 
-        //dertermine damage
-        var f1 = Math.floor(math.random() * fighters[0].damage + fighters[0].damage *.5);
-        var f2 = Math.floor(math.random() * fighters[1].damage + fighters[1].damage *.5);
+        //determine damage
+        var f1 = Math.floor(math.random() * fighter[0].damage + fighter[0].damage *.5);
+        var f2 = Math.floor(math.random() * fighter[1].damage + fighter[1].damage *.5);
 
         //inflict damage
-        fighters[0].health -= f1;
-        fighters[1].health -= f2;
+        fighter[0].health -= f1;
+        fighter[1].health -= f2;
 
-        console.log(fighters[0].health, fighters[1].health);
+        console.log(fighter[0].health, fighter[1].health);
 
         //check for winner
         var result = winnerCheck();
@@ -86,8 +95,8 @@
         round++;
         if (result === "no winner")
         {
-            fighter1_txt.innerHTML = fighters[0].name + ":  " + fighters[0].health;
-            fighter2_txt.innerHTML = fighters[1].name + ":  " + fighters[1].health;
+            fighter1_txt.innerHTML = fighter[0].name + ":  " + fighter[0].health;
+            fighter2_txt.innerHTML = fighter[1].name + ":  " + fighter[1].health;
         }else{
             fighter1_txt.innerHTML = result;
             fighter2_txt.innerHTML = "";
@@ -146,14 +155,14 @@
                                              //if player 1 or 2 has les then 1 the opposite player "wins" then return result to variable
     function winnerCheck(){
         var result = "no winner";
-        if (fighters[0].health < 1 && fighters[1].health < 1)
+        if (fighter[0].health < 1 && fighter[1].health < 1)
         {
             result = "You Both Die - GAME OVER!";
-        } else if(fighters[0].health < 1){
-            result =fighters[1].name + " WINS!!!"
-        } else if (fighters[1] < 1)
+        } else if(fighter[0].health < 1){
+            result =fighter[1].name + " WINS!!!"
+        } else if (fighter[1] < 1)
         {
-            result = fighters[0].name + " WINS!!!"
+            result = fighter[0].name + " WINS!!!"
         }
        return result;
     }

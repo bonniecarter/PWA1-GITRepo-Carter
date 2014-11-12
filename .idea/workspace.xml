@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cbd25c9-89d5-4392-8f5c-dd18be816694" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/carter_bonnie_goal1_assign_duel1/index.html" afterPath="$PROJECT_DIR$/Week 3/carter_bonnie_goal1_assign_duel1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/carter_bonnie_goal1_assign_duel1/js/main.js" afterPath="$PROJECT_DIR$/Week 3/carter_bonnie_goal1_assign_duel1/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/carter_bonnie_goal3_assign_debug_v2/js/search.js" afterPath="$PROJECT_DIR$/Week 3/carter_bonnie_goal3_assign_debug_v2/js/search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/carter_bonnie_goal3_assign_debug_v2/js/database.js" afterPath="$PROJECT_DIR$/Week 3/carter_bonnie_goal3_assign_debug_v2/js/database.js" />
     </list>
     <ignored path="PWA1-GITRepo-Carter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,21 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="database.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week 3/carter_bonnie_goal3_assign_debug_v2/js/database.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.019633507" vertical-offset="0" max-vertical-offset="764">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="search.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 3/carter_bonnie_goal3_assign_debug_v2/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41099477" vertical-offset="1201" max-vertical-offset="1965">
-              <caret line="101" column="47" selection-start-line="101" selection-start-column="47" selection-end-line="101" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1201" max-vertical-offset="1965">
+              <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
               <folding>
                 <marker date="1415739458000" expanded="false" signature="2937:2952" placeholder="..." />
               </folding>
@@ -100,6 +98,7 @@
         <option value="$PROJECT_DIR$/Week 3/carter_bonnie_goal1_assign_duel1/js/main.js" />
         <option value="$PROJECT_DIR$/Week 3/carter_bonnie_goal1_assign_duel1/index.html" />
         <option value="$PROJECT_DIR$/Week 3/carter_bonnie_goal3_assign_debug_v2/js/search.js" />
+        <option value="$PROJECT_DIR$/Week 3/carter_bonnie_goal3_assign_debug_v2/js/database.js" />
       </list>
     </option>
   </component>
@@ -502,6 +501,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Week 3/carter_bonnie_goal3_assign_debug_v2/js/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1201" max-vertical-offset="1965">
+          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+          <folding>
+            <marker date="1415739458000" expanded="false" signature="2937:2952" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/carter_bonnie_goal3_assign_debug_v2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="555">
@@ -512,19 +521,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/carter_bonnie_goal3_assign_debug_v2/js/database.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="764">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.019633507" vertical-offset="0" max-vertical-offset="764">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 3/carter_bonnie_goal3_assign_debug_v2/js/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41099477" vertical-offset="1201" max-vertical-offset="1965">
-          <caret line="101" column="47" selection-start-line="101" selection-start-column="47" selection-end-line="101" selection-end-column="47" />
-          <folding>
-            <marker date="1415739458000" expanded="false" signature="2937:2952" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>

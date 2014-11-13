@@ -14,8 +14,8 @@
 
 
     //DEFINE YOUR do pieces; Multiple ways to define/access HTML tags.
-    var fighter1_txt = document.querySelector("#spiderman").querySelector("#p");
-    var fighter2_txt = document.querySelector("#superman").querySelector("#p");
+    var fighter1_txt = document.getElementById("spiderman p");
+    var fighter2_txt = document.getElementById("superman p");
     var round_txt = document.querySelector("h5");
     var button = document.getElementById("fight_btn");
 

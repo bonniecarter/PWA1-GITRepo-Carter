@@ -13,7 +13,7 @@
     console.log(" ** Fight **");                 //Comment: Display to Browser "Fight"
 
 
-    //DEFINE YOUR do pieces; Multiple ways to define/access HTML tags.
+    //DEFINE YOUR pieces do; Multiple ways to define/access HTML tags.
     var fighter1_txt = document.getElementById("spiderman p");
     var fighter2_txt = document.getElementById("superman p");
     var round_txt = document.querySelector("h5");
@@ -45,8 +45,8 @@
 
 
     //INITIALIZE DOM innerHTML text for top of HTML page
-
-    document.getElementById("round").innerHTML = "Click FIGHT BUTTON to Start!";
+    //round_txt.innerHTML = "Click FIGHT BUTTON to Start!";
+    round_txt.innerHTML = "Click FIGHT BUTTON to Start!";
     fighter1_txt.innerHTML = fighter[0].name + ":  " + fighter[0].health;
     fighter2_txt.innerHTML = fighter[1].name + ":  " + fighter[1].health;
 
